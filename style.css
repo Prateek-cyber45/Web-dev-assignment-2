@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #422622, #a5cbaa);
+    min-height: 100vh;
+}
+
+h2, h3 {
+    color: #cde1b2;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 220px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #ffffffcc;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #6f0dde;
+    color: #e36666;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #625a4f;
+}
+
+.info {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    margin: 20px auto;
+    width: 260px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.historyBtn button {
+    margin: 5px;
+    background-color: #6b8ac5;
+    color: #1b4332;
+}
